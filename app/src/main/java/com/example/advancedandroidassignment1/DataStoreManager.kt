@@ -1,14 +1,16 @@
-package com.example.advancedandroidassignment1.com.example.advancedandroidassignment1
+package com.example.advancedandroidassignment1
 
 import android.content.Context
 import androidx.datastore.preferences.core.edit
 import androidx.datastore.preferences.core.stringPreferencesKey
-import com.example.advancedandroidassignment1.dataStore
+import androidx.datastore.preferences.preferencesDataStore
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
 
+// Ensure this is declared **ONLY ONCE** in your project
+private val Context.dataStore by preferencesDataStore(name = "user_prefs")
+
 class DataStoreManager(private val context: Context) {
-    // Use camelCase for property names
     private val idKey = stringPreferencesKey("id")
     private val usernameKey = stringPreferencesKey("username")
     private val courseNameKey = stringPreferencesKey("courseName")

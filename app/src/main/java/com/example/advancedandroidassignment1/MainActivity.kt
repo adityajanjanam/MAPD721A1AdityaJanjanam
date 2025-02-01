@@ -20,6 +20,8 @@ import androidx.compose.ui.unit.sp
 import androidx.lifecycle.lifecycleScope
 import com.example.advancedandroidassignment1.ui.theme.AssignmentTheme
 import kotlinx.coroutines.launch
+import com.example.advancedandroidassignment1.DataStoreManager
+
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -95,8 +97,8 @@ fun AppScreen(dataStoreManager: DataStoreManager) {
                                 }
                             },
                             modifier = Modifier
-                                .height(100.dp)
-                                .width(160.dp)
+                                .height(80.dp)
+                                .width(140.dp)
                         ) {
                             Text("Load", fontSize = 20.sp)
                         }
