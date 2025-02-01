@@ -25,22 +25,21 @@ This is an **Android application** built using **Jetpack Compose** and **DataSto
 ```sh
 git clone https://github.com/adityajanjanam/MAPD721A1AdityaJanjanam.git
 cd MAPD721A1AdityaJanjanam
- Open in Android Studio
+Open in Android Studio
 Open Android Studio.
 Click on "Open an Existing Project".
 Select the cloned folder.
 Sync Gradle files (File → Sync Project with Gradle Files).
+
 🔹 Run the Project
 Android Emulator: Click ▶️ Run from Android Studio.
-Physical Device: Connect an Android device via USB, enable Developer Mode, and select the device.
-📸 Screenshots
-Home Screen	Data Stored	Data Loaded
-📷 Screenshot 1	📷 Screenshot 2	📷 Screenshot 3
+
 🤝 Contributing
 Fork this repository.
 Create a new branch: git checkout -b feature-branch
 Commit changes: git commit -m "Added new feature"
 Push to GitHub: git push origin feature-branch
+
 Create a Pull Request 🚀
 📜 License
 This project is free to use and licensed under the MIT License.
